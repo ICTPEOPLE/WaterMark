@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35425.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0446EDFC-7EFE-455D-AA23-4A1656646D81}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocMng_Api", "DocMng_Api\DocMng_Api.csproj", "{32B5ADC3-4957-40E0-92B2-4A8FD2A92E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{6EE77236-7EAD-4D68-898C-122BCC3DAD93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B5ADC3-4957-40E0-92B2-4A8FD2A92E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B5ADC3-4957-40E0-92B2-4A8FD2A92E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B5ADC3-4957-40E0-92B2-4A8FD2A92E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B5ADC3-4957-40E0-92B2-4A8FD2A92E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE77236-7EAD-4D68-898C-122BCC3DAD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE77236-7EAD-4D68-898C-122BCC3DAD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE77236-7EAD-4D68-898C-122BCC3DAD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE77236-7EAD-4D68-898C-122BCC3DAD93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B48854DF-8691-440B-874C-B0DC2010CA90}
+	EndGlobalSection
+EndGlobal
